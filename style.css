@@ -1,0 +1,211 @@
+/* Navbar */
+.navbar {
+	position: relative;
+	z-index: 1;
+}
+.navbar-brand {
+	font-family: Viga;
+	font-size: 32px;
+}
+
+/* jumbotron */
+
+.jumbotron {
+
+	background-image: url(350x230-img-18633-honda-jazz.jpg);
+	background-size: cover;
+	height: 540px;
+	text-align: center;
+	position: relative;
+
+}
+.jumbotron .container {
+
+	z-index: 1;
+	position: relative;
+}
+
+.jumbotron::after{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to bottom, rgba(134, 127, 127, 0.884), rgba(238, 230, 230, 0));
+	position: absolute;
+	bottom: 0;
+}
+
+.jumbotron .display-4 {
+	color: white;	
+	margin-top: 150px;
+	font-weight: 200;
+	text-shadow: 1px 1px 1px rgba(243, 239, 239, 0.726);
+	font-size: 40px;
+	margin-bottom: 30px;
+	
+}
+
+.h1font{
+    font-family: 'Francois One', sans-serif;
+    font-size: 50px !important;
+	/* font-weight: bold; */
+	
+}
+
+
+
+
+.figure-img {
+    width: 80px;
+    height: 80px;
+    box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+    border-radius: 12px;
+    text-align: center;
+    background-color: white;
+    text-align: center;
+    
+    position: relative;
+  }
+/* Footer */
+.footer {
+	margin-top: 100px;
+}
+
+.footer p {
+	color: #acacac;
+	font-size: 18px;
+}
+/*tombol */
+.tombol {
+    /* width: 100px; */
+    width: 11rem;
+	text-transform: uppercase;
+    border-radius: 3px;
+    
+
+}
+
+.designer .container .row .col h1{
+    font-size: 50px;
+    font-family: 'Francois One', sans-serif;
+    font-weight: 700px;
+    padding-bottom: 15px;
+}
+
+.designer .container .row .col p{
+    font-size: 18px;
+    /* font-family: 'Francois One', sans-serif; */
+    color: rgba(95, 90, 90, 0.726);
+    font-weight: 50px;
+    padding-bottom: 15px;
+
+}
+
+.tomboltask{
+    width: 11rem;
+    border-radius: 4px;
+    font-weight: bold;
+    border-width: 2px;
+    padding-bottom: 15px;
+
+}
+
+
+.card{
+    background-color: rgb(255, 174, 23)
+}
+
+
+.card .container .row .col h1{
+    font-size: 50px;
+    font-family: 'Francois One', sans-serif;
+    font-weight: 700px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+.designer .container .row .col p{
+    font-size: 18px;
+    /* font-family: 'Francois One', sans-serif; */
+    color: rgba(95, 90, 90, 0.726);
+    font-weight: 50px;
+    padding-bottom: 15px;
+
+}
+
+.boottonmobile{
+    width: 11rem;
+    border-radius: 4px;
+    font-weight: bold;
+    border-width: 2px;
+    padding-bottom: 15px;
+
+}
+
+
+.testimonial figure img {
+
+	
+	margin: 20px 10px 10px; 
+	opacity: 0.5;
+}
+
+.testimonial figure img.utama {
+	/* width: 90px; */
+	/* opacity: 1; */
+	margin-top: 5px;
+}
+
+.testimonial figure h5 {
+
+	font-size: 16px;
+	font-weight: bold;
+	font-style: normal;
+	color: #1c2c5d;
+}
+
+.testimonial figure p {
+	font-size: 12px;
+	color: #acacac;
+	margin-top: -5px !important;
+}
+
+.testimonial figcaption {
+
+	text-align: center;
+}
+
+
+.testimonial figure img.utama {
+	width: 90px;
+	opacity: 1;
+	margin-top: 5px;
+}
+
+
+/* DESKTOP VERSION */
+
+@media (min-width: 992px) {
+	
+	.navbar-brand, .nav-link {
+		color: rgba(24, 23, 23, 0.699) !important;
+		text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+	} 
+	
+	.nav-link {
+		margin-right: 30px;
+	}
+
+	.jumbotron {
+		margin-top: -75px;
+		height: 640px;
+
+	}
+
+	.jumbotron .display-4 {
+		font-size: 62px;
+	}
+
+
+
+}	
